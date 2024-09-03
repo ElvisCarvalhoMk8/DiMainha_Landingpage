@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(247, 112, 112);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(117, 5,5);
+    transition: 0.3 all;
+}
+
+
+#inscreva-se-btn{
+    border: 2px solid rgb(117,5,5);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(117,5,5);
+    color: white;
+
+}
+
+Li{
+    display: inline-block;
+    margin: 20px;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+span{
+    color: rgb(117, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    line-height: 5px;
+}
+
+img{
+    width: 370px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(117,5,5);
+    font-weight: bold;
+    color: white;
+}
+
+input{
+    margin-top: 10px;
+    height: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+}
+
+.cnossosprodutos{
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+
+.nossosprodutos{
+    float: left ;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cquemsomos{
+    margin-top: 500px;
+    margin-bottom: 150px;
+
+}
+
+.quemsomos{
+    float: left;
+    margin-left: 20px;
+    padding: 10px 90px;
+
+}
+
+p{
+    line-height: 50px;
+    max-width: 500px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
